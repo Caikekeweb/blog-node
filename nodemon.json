@@ -1,0 +1,17 @@
+{
+  "verbose": true,
+  "ignore": [
+    "node_modules",
+    "./test",
+    "*.test.ts",
+    "*.spec.ts",
+    "test/**/*",
+    "docs/*"
+  ],
+  "exec": "ts-node  -r tsconfig-paths/register --files ./app.ts",
+  "execMap": {
+    "rb": "ruby",
+    "pde": "processing --sketch={{pwd}} --run"
+  },
+  "watch": ["./app", "./configs", "./app.ts"]
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es2015"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    "paths": {
+      "@*": ["./*"]
+    },
+    "typeRoots" : ["./node_modules/@types", "./typings"]
+  },
+  "includes": [
+    "app/**/*",
+    "app.ts"
+  ],
+  "exclude": ["node_modules"]
+}
